@@ -1,0 +1,85 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/p6c">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="任务输入:"
+            android:textSize="24sp"
+            android:layout_marginLeft="40dp"/>
+
+        <EditText
+            android:id="@+id/input_message_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="XX任务"
+            android:layout_marginRight="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="提醒时间:"
+            android:textSize="24sp"
+            android:layout_marginLeft="40dp"/>
+
+
+        <Button
+            android:id="@+id/setTime"
+
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="时间设置"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/b3" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+
+        <Button
+            android:id="@+id/input_mission"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="输入任务"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/b3" />
+
+        <Button
+            android:id="@+id/button_1_2"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="共享作业"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/b3"/>
+    </LinearLayout>
+
+</LinearLayout>

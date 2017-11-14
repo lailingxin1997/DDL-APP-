@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p6c">
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:text="作业/截止时间 设置"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/b3" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:text="查看任务"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/b3" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:text="已有群体"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/b3" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:text="查找群体"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/b3" />
+
+
+</LinearLayout>

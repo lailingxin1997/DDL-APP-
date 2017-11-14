@@ -1,0 +1,56 @@
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p6">
+
+    <Button
+        android:id="@+id/button1"
+        android:text="复习时间提醒"
+        android:layout_gravity="left|top"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="20%"
+        android:textSize="30dp"
+        android:background="@drawable/b1"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:text="DDL提醒"
+        android:layout_gravity="left|bottom"
+        android:textSize="30dp"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="20%"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@drawable/b1" />
+    <Button
+        android:id="@+id/button4"
+        android:text="我的"
+        android:layout_gravity="right|bottom"
+        android:textSize="30dp"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="20%"
+        android:background="@drawable/b1"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:id="@+id/button2"
+        android:text="作业交流专区"
+        android:layout_gravity="right|top"
+        android:textSize="30dp"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="20%"
+        android:background="@drawable/b1"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+
+</android.support.percent.PercentFrameLayout>
+

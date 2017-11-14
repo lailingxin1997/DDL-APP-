@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p6c">
+
+    <TextView
+        android:id="@+id/text_4_1"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="寻找大学/学院"
+        android:textSize="32dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="400dp"
+        android:layout_height="220dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="250dp"
+            android:layout_height="220dp">
+
+            <EditText
+                android:id="@+id/edit_text_1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="60dp"
+                android:hint="输入大学名"/>
+
+            <EditText
+                android:id="@+id/edit_text_2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="60dp"
+                android:hint="输入学院名"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_4_1"
+            android:layout_width="80dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="125dp"
+            android:text="查找"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/b3" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_4_2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="清华大学  北京大学  复旦大学  交通大学  浙江大学"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/text_4_3"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="四川大学  武汉大学  中山大学  厦门大学  南京大学"
+        android:layout_marginLeft="40dp" />
+
+</LinearLayout>

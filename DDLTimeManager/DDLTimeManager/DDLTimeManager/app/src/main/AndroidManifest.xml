@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ddltimemanager">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ddl"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:gravity="center"
+            android:label="DDL智能时间管理"
+            android:textSize="30sp"></activity>
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".review"
+            android:label="艾宾浩斯智能复习提醒" />
+        <activity
+            android:name=".LearningSetting"
+            android:label="已学习内容设置" />
+        <activity
+            android:name=".LabelSetting"
+            android:label="标签设置" />
+        <activity
+            android:name=".CheckupReview"
+            android:label="查看复习任务" />
+        <activity
+            android:name=".Encouragement"
+            android:label="鼓励语设置" />
+        <activity
+            android:name=".Homework"
+            android:label="作业交流专区" />
+        <activity
+            android:name=".WorkDDL"
+            android:label="作业/截止时间 设置" />
+        <activity
+            android:name=".CheckMission"
+            android:label="查看任务" />
+        <activity
+            android:name=".ExistGroups"
+            android:label="已有群体" />
+        <activity
+            android:name=".CheckGroups"
+            android:label="查看群体" />
+
+        <receiver android:name=".CallAlarm" />
+
+        <activity android:name=".AlarmAlert" />
+        <activity android:name=".TimeSetting"></activity>
+    </application>
+
+</manifest>

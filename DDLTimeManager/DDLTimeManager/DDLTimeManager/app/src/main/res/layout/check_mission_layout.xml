@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p6c">
+
+    <Button
+        android:id="@+id/deleteAll"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="清空任务表"
+        android:layout_gravity="center_vertical"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/b3" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
